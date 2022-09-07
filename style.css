@@ -1,0 +1,123 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin-left: 2em;
+}
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-button {
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 1px 40px;
+  font-size: 20px;
+}
+
+.hero-container {
+  display: flex;
+}
+
+[alt="person-hero-iamge"] {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  height: 500px;
+}
+
+.square {
+  margin-top: 210px;
+  margin-left: 140px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+}
+.hero-heading {
+  font-family: Orbitron, sans-serif;
+  font-size: 55px;
+  text-align: center;
+}
+.list li {
+  font-family: Orbitron, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.list li:first-child {
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.list li:first-child:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3px;
+  margin: auto;
+  background-color: #000;
+}
+.globe {
+  position: absolute;
+  left: 810px;
+  top: 125px;
+}
+.globe img {
+  width: 55px;
+}
+.star img {
+  position: absolute;
+  right: 142px;
+  top: 175px;
+  width: 50px;
+}
+
+.search-icon {
+  margin-top: 7px;
+}
+.search-icon svg {
+  height: 22px;
+}
+.hero-description {
+  text-align: center;
+  font-size: 15px;
+  padding: 0 130px;
+  color: #5f5f5f;
+}
+.button-email {
+  background: transparent;
+  border-radius: 6px;
+  font-family: "Orbitron";
+  font-size: 16px;
+  padding: 2px 15px;
+}
+
+.button-join {
+  font-family: "Orbitron";
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.hero-container-right > div {
+  margin: auto;
+}
+.contact-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 18px;
+}
